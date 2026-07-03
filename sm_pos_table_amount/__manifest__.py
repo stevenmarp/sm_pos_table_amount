@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     "name": "Restaurant Table Order Amount",
-    "version": "18.0.1.0.0",
+    "version": "19.0.1.0.0",
     "category": "Point of Sale",
     "summary": "Show the running order amount on every occupied table of the restaurant floor plan",
     "description": """
