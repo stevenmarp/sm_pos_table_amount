@@ -19,6 +19,7 @@ restaurant floor plan.
     "author": "Steven Marp",
     "website": "https://apps.odoo.com/apps/modules/browse?author=Steven Marp",
     "license": "OPL-1",
+    "images": ["static/description/banner.gif"],
     "depends": ["pos_restaurant"],
     "assets": {
         "point_of_sale._assets_pos": [
@@ -28,6 +29,6 @@ restaurant floor plan.
     "installable": True,
     "application": False,
     "auto_install": False,
-    "price": 10.00,
+    "price": 59.93,
     "currency": "USD",
 }
