@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     "name": "Restaurant Table Order Amount",
-    "version": "18.0.1.0.0",
+    "version": "17.0.1.0.0",
     "category": "Point of Sale",
     "summary": "Show the running order amount on every occupied table of the restaurant floor plan",
     "description": """
@@ -23,7 +23,7 @@ restaurant floor plan.
     "depends": ["pos_restaurant"],
     "assets": {
         "point_of_sale._assets_pos": [
-            "sm_pos_table_amount/static/src/*",
+            "sm_pos_table_amount/static/src/**/*",
         ],
     },
     "installable": True,

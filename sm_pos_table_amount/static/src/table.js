@@ -1,11 +1,11 @@
 /** @odoo-module **/
 
 import { patch } from "@web/core/utils/patch";
-import { FloorScreen } from "@pos_restaurant/app/floor_screen/floor_screen";
+import { Table } from "@pos_restaurant/app/floor_screen/table";
 
-patch(FloorScreen.prototype, {
-    smTableAmount(table) {
-        const orders = this.pos.getTableOrders(table.id);
+patch(Table.prototype, {
+    smTableAmount() {
+        const orders = this.pos.getTableOrders(this.props.table.id);
         if (!orders.length) {
             return "";
         }
